@@ -24,7 +24,7 @@ public class Main {
 			
 			if(purchaseCompleted) {
 				System.out.println("Pruchase Completed!");
-				System.out.println("Enter 0 to exit or 1 to continue");
+				System.out.println("Enter 0 to exit or 1 to continue: ");
 				exit = keyboard.nextInt();
 			}else {
 				System.out.println("Insufficient Funds");
